@@ -128,18 +128,18 @@ Password: root
 ## 📋 Menu Overview
 
 ```
-1.  Register New Member         (Linked List, Hash Table, Set ADT, BST, AVL Tree, Graph)
-2.  View All Members            (Linked List)
-3.  Find a Member                (Hash Table)
-4.  Remove a Member              (Linked List, BST, AVL Tree)
-5.  Undo Last Action             (Stack)
-6.  Trainer Waiting Queue        (Queue)
-7.  Sort All Members             (Bubble, Selection, Insertion, Merge, Quick Sort)
-8.  View Sorted Member Records   (BST, AVL Tree Traversal)
-9.  Referral Program             (Graph - BFS/DFS)
-10. Save All Data to Database    (MySQL)
+1.  Register New Member
+2.  View All Members
+3.  Find a Member
+4.  Remove a Member
+5.  Update Member Status
+6.  Undo Last Action
+7.  Trainer Waiting Queue
+8.  Sort All Members
+9.  View Sorted Member Records
+10. Referral Program
+11. Save All Data to Database
 0.  Exit
-```
 
 All registration, deletion, sorting, and searching happens **in memory only**. Nothing touches MySQL until option 10 is chosen — at that point, the entire `members` table is cleared and rewritten to exactly match what's currently held in memory.
 
