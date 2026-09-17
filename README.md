@@ -141,7 +141,7 @@ Password: root
 11. Save All Data to Database
 0.  Exit
 
-All registration, deletion, sorting, and searching happens **in memory only**. Nothing touches MySQL until option 10 is chosen — at that point, the entire `members` table is cleared and rewritten to exactly match what's currently held in memory.
+All registration, deletion, sorting, and searching happens **in memory only**. Nothing touches MySQL until option 11 is chosen — at that point, the entire `members` table is cleared and rewritten to exactly match what's currently held in memory.
 
 ---
 
